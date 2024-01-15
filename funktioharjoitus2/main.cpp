@@ -7,6 +7,8 @@ void multiplynumbers2(int *, int *);
 
 int main()
 {
+
+
     int luku1=5, luku2=9;
     cout << "luku1 mainissa = " << luku1 << endl;
     cout << "luku2 mainissa = " << luku2 << endl;
