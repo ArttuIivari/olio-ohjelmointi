@@ -1,0 +1,7 @@
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/olioharjoitus.dir
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/edit_cache.dir
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/rebuild_cache.dir
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/list_install_components.dir
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/install.dir
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/install/local.dir
+C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/olioharjoitus/build/CMakeFiles/install/strip.dir

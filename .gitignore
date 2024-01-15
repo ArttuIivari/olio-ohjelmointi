@@ -12,3 +12,7 @@ funkitoharjoitus/build/
 funktioharjoitus/*.user
 funkitoharjoitus2/build/
 funktioharjoitus2/*.user
+
+classExample/build/
+classExample/*.user
+
