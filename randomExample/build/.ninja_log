@@ -1,0 +1,9 @@
+# ninja log v5
+1	2117	7270024897375807	CMakeFiles/randomExample.dir/main.cpp.obj	60590d5b5e933573
+2125	2585	7270024902542116	randomExample.exe	eae54c92338a1c8d
+32	1108	7270026454947787	CMakeFiles/randomExample.dir/main.cpp.obj	60590d5b5e933573
+1110	1444	7270026458126434	randomExample.exe	eae54c92338a1c8d
+11	1060	7270026643184687	CMakeFiles/randomExample.dir/main.cpp.obj	60590d5b5e933573
+1062	1363	7270026645983735	randomExample.exe	eae54c92338a1c8d
+10	2011	7270026956568881	CMakeFiles/randomExample.dir/main.cpp.obj	60590d5b5e933573
+2014	2514	7270026961755750	randomExample.exe	eae54c92338a1c8d
