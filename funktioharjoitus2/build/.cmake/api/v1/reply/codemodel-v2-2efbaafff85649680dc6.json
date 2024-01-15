@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2281f2b270c18adaa799.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "funktioharjoitus2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "funktioharjoitus2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-funktioharjoitus2-Debug-9d763c5a46c59632edaf.json",
+					"name" : "funktioharjoitus2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/funktioharjoitus2/build",
+		"source" : "C:/oamk/kevat23/olio-ohjelmointi/olio-ohjelmointi/funktioharjoitus2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
