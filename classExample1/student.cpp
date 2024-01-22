@@ -28,5 +28,16 @@ void Student::studentInfo()
 
 Student::Student()
 {
+    cout <<"Student luokan muodostinta(constructor) kutsttiin."<<endl;
+}
 
+Student::Student(string fn, string ln)
+{
+    fname=fn;
+    lname=ln;
+}
+
+Student::~Student()
+{
+    cout <<"Student luokan muodostinta(destructor) kutsttiin."<<endl;
 }

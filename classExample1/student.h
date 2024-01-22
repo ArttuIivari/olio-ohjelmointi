@@ -13,6 +13,8 @@ private:
     string lname;
 public:
     Student();
+    Student(string fn, string ln);
+    ~Student();         //TÄMÄ ON DESTRUCTOR
     string getFname() const;
     void setFname(const string &newFname);
     string getLname() const;
