@@ -1,11 +1,15 @@
 #ifndef GAME_H
 #define GAME_H
-
+using namespace std;
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 class Game
 {
 public:
     Game();
+    Game(int maxnum);
     ~Game();
     void play();
 
