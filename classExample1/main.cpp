@@ -22,5 +22,14 @@ int main()
 
     Student objectStudent2("Aino","Joki");
     objectStudent2.studentInfo();
+
+    Student *objectStudent3;
+    objectStudent3=new Student("Liisa","Virta");
+    objectStudent3->studentInfo();
+    delete objectStudent3;
+    objectStudent3=nullptr;
+
+
+
     return 0;
 }
