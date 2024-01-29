@@ -1,6 +1,6 @@
 #include "cat.h"
+#include "bear.h"
 
-#include <bear.h>
 #include <iostream>
 
 using namespace std;
@@ -19,7 +19,7 @@ int main()
     delete objectCat2;
     objectCat2=nullptr;
 
-    Bear *objectBear=new bear;
+    Bear *objectBear=new Bear;
     objectBear->setSpecies("Jaakarhu");
     objectBear->setColor("valkoinen");
     objectBear->bearInfo();

@@ -2,10 +2,9 @@
 #define BEAR_H
 #include "animal.h"
 
-#include <iostream>
-using namespace std;
 
-class bear : public Animal
+
+class Bear : public Animal
 {
 private:
     string species;
