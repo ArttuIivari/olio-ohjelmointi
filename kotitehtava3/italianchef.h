@@ -6,7 +6,7 @@
 class ItalianChef : public Chef
 {
 public:
-    ItalianChef();
+
     ItalianChef(string);
     string getName();
     void makePasta();
