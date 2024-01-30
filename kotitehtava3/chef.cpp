@@ -1,6 +1,10 @@
 #include "chef.h"
 
-Chef::Chef()
+//Chef::Chef()
+//{
+//    cout << "Chef " << Chef::getName() << " konstruktori" << endl;
+//}
+Chef::Chef(string name)
 {
     cout << "Chef " << name << " konstruktori" << endl;
 }
@@ -10,10 +14,7 @@ Chef::~Chef()
     cout << "Chef " << name << " destruktori" << endl;
 }
 
-Chef::Chef(string name)
-{
 
-}
 
 void Chef::makeSalad()
 {
@@ -22,7 +23,7 @@ void Chef::makeSalad()
 
 void Chef::makeSoup()
 {
-
+    cout << "Chef " << name << " makes soup" << endl;
 }
 
 string Chef::getName() const

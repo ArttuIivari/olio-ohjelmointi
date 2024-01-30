@@ -6,9 +6,10 @@ using namespace std;
 class Chef
 {
 public:
-    Chef();
-    ~Chef();
+
     Chef(string);
+    ~Chef();
+
     void makeSalad();
     void makeSoup();
     string getName() const;

@@ -1,11 +1,8 @@
 #include "italianchef.h"
 
-ItalianChef::ItalianChef()
-{
 
-}
 
-ItalianChef::ItalianChef(string)
+ItalianChef::ItalianChef(string name):Chef(name)
 {
 
 }
