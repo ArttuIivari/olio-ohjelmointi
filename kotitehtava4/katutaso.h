@@ -11,7 +11,7 @@ public:
     Asunto as1;
     Asunto as2;
 
-    void maaritaAsunnot();
+    void maaritaAsunnot() override;
     double laskeKulutus(double);
 };
 
