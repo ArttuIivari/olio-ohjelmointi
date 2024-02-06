@@ -14,9 +14,10 @@ void Katutaso::maaritaAsunnot()
 
 double Katutaso::laskeKulutus(double price)
 {
-    int as1hinta = price * as1.asukasMaara * as1.neliot;
-    int as2hinta = price * as2.asukasMaara * as2.neliot;
-    int vastaus = as1hinta + as2hinta;
-    cout << "Asunnon kulutus, kun hinta = " << price << " on " << vastaus << endl;
+    cout << "Maaritetaan 2 kpl katutason asuntoja "<< endl;
+    double as1hinta = as1.laskeKulutus(price);
+    double as2hinta = as2.laskeKulutus(price);
+    double vastaus = as1hinta + as2hinta;
+
     return vastaus;
 }
