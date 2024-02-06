@@ -8,13 +8,13 @@ using namespace std;
 int main()
 {
 
-    //Asunto objectAsunto;
     Kerros objectKerros;
     Katutaso objectKatutaso;
-    /*objectAsunto.maarita(2,100);
-    double f = objectAsunto.laskeKulutus(1);    //Täytyy returnata johonkin muuttujaan,
-      */                               //muuten ei koskaan luo destruktoria
 
+    objectKatutaso.maaritaAsunnot();
+    objectKerros.maaritaAsunnot();
 
+    int vastaus = objectKatutaso.laskeKulutus(1) + objectKerros.laskeKulutus(1);
+    cout << "Katutason ja perityn kerroksen kulutus, kun hinta = 1 on " << vastaus << endl;
     return 0;
 }

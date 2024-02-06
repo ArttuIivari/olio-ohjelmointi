@@ -8,6 +8,7 @@ Kerros::Kerros()
 
 void Kerros::maaritaAsunnot()
 {
+    cout << "Maaritetaan 4 kpl kerroksen asuntoja" << endl;
     as1.maarita(2,100);
     as2.maarita(2,100);
     as3.maarita(2,100);
