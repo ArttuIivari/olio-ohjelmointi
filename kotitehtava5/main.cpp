@@ -5,8 +5,15 @@ using namespace std;
 
 int main()
 {
-    Kerrostalo objectKerrostalo;
+    Kerrostalo *objectKerrostalo;
 
-    objectKerrostalo.laskeKulutus(1);
+    objectKerrostalo = new Kerrostalo;
+
+    objectKerrostalo->laskeKulutus(1);
+
+
+
+    delete objectKerrostalo;
+    objectKerrostalo=nullptr;
     return 0;
 }

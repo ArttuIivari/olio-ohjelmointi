@@ -12,9 +12,9 @@ public:
 
     double laskeKulutus(double);
 private:
-    Katutaso eka;
-    Kerros toka;
-    Kerros Kolmas;
+    Katutaso *eka;
+    Kerros *toka;
+    Kerros *Kolmas;
 };
 
 #endif // KERROSTALO_H
