@@ -21,6 +21,7 @@ void MainWindow::on_btnTest_clicked()
 {
     x++;
     QString s = QString::number(x);
+
     qDebug()<<"Painiketta painettu";
     ui->labelResult->setText("Painiketta painettu:"+s+ " kertaa");
 
