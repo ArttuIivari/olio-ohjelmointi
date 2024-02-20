@@ -16,13 +16,47 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_btn_count_clicked();
 
-    void on_btn_reset_clicked();
+
+
+
+    void on_btn1_clicked();
+
+    void on_btn2_clicked();
+
+    void on_btn3_clicked();
+
+    void on_btn4_clicked();
+
+    void on_btn5_clicked();
+
+    void on_btn6_clicked();
+
+    void on_btn7_clicked();
+
+    void on_btn8_clicked();
+
+    void on_btn9_clicked();
+
+    void on_btn0_clicked();
+
+    void on_btnClear_clicked();
+
+    void on_btnEnter_clicked();
 
 private:
     Ui::MainWindow *ui;
-    int value = 0;
-    QString p;
+    QString number1, number2;
+    int state = 0;
+    float result;
+    short operand;
+
+    void numberClickedHandler();
+    void clearAndEnterClickHandler();
+    void addSubMulDivClickHandler();
+    void resetLineEdits();
+
+
+
 };
 #endif // MAINWINDOW_H
