@@ -278,7 +278,7 @@
      <string>enter</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnDivide">
+   <widget class="QPushButton" name="btnDiv">
     <property name="geometry">
      <rect>
       <x>370</x>
