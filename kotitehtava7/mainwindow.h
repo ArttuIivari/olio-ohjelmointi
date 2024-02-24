@@ -26,16 +26,21 @@ private slots:
 
     void on_btnSetTimer300_clicked();
 
+    void on_btnStart_clicked();
+
+    void on_btnStop_clicked();
+
+    void updateProgressBar();
 private:
     Ui::MainWindow *ui;
     QTimer *qtimer;
 
-    short gameTime;
+    short gameTime = 0;
     short player1Time;
     short player2Time;
-    short currentPlayer;
+    short currentPlayer = 3;
 
-    void updateProgressBar();
+
     void setGameInfoText(QString,short);
 
 
